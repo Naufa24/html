@@ -32,7 +32,7 @@ text-align: center;
 }
 .hero{
 	height:250px;
-	background-image: url(../image/CSS.webp);
+	background-image: url(CSS.webp);
 	background-size: cover;
 	background-position: 0 0px;
 	border-top: 3px blue;
