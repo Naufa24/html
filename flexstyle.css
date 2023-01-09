@@ -34,7 +34,7 @@ body {
   width: 1000px;
   padding: 50px;
   box-sizing: border-box;
-background-image: url(../image/toko.jpeg);
+background-image: url(toko.jpeg);
   background-size: 1000px;
 
 }
@@ -56,19 +56,19 @@ background-image: url(../image/toko.jpeg);
 }
 .card .header-satu {
   height: 210px;
-  background-image: url(../image/dawet.jpg);
+  background-image: url(dawet.jpg);
   background-size: 315px;
   background-repeat: no-repeat;
 }
 .card .header-dua {
   height: 210px;
-  background-image: url(../image/escampur.jpg);
+  background-image: url(escampur.jpg);
   background-size: 315px;
   background-repeat: no-repeat;
 }
 .card .header-tiga {
   height: 210px;
-  background-image: url(../image/boba.webp);
+  background-image: url(boba.webp);
   background-size: 315px;
   background-repeat: no-repeat;
 }
