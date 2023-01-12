@@ -34,7 +34,7 @@ body {
   width: 1000px;
   padding: 50px;
   box-sizing: border-box;
-background-image: url(bck.jpeg);
+background-image: url('bck.jpeg');
   background-size: 1000px;
   background-repeat: no-repeat;
 }
@@ -60,19 +60,19 @@ background-image: url(bck.jpeg);
 }
 .card .header-satu {
   height: 210px;
-  background-image: url(dawet.jpg);
+  background-image: url('dawet.jpg');
   background-size: 315px;
   background-repeat: no-repeat;
 }
 .card .header-dua {
   height: 210px;
-  background-image: url(escampur.jpg);
+  background-image: url('escampur.jpg');
   background-size: 315px;
   background-repeat: no-repeat;
 }
 .card .header-tiga {
   height: 210px;
-  background-image: url(boba.webp);
+  background-image: url('boba.webp');
   background-size: 315px;
   background-repeat: no-repeat;
 }
