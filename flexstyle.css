@@ -1,0 +1,105 @@
+html,body{
+  margin: 0;
+  padding: 0;
+  
+}
+body {
+  font-family: 'poppins', Sans-Serif;
+  background-color: #ddd;
+  line-height: 1.65;
+  padding-bottom: 100px;
+}
+.container-satu {
+  width: 100%;
+  background-color: white;
+  padding: 10px;
+  box-sizing: border-box;
+  display: flex;
+}
+.kolom-utama {
+  flex: 10;
+}
+.sidebar {
+  float: left;
+  margin-top: 20px;
+}
+.sidebar a{
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+
+
+.container-dua  {
+  width: 100%;
+  padding: 50px;
+  box-sizing: border-box;
+background-image: url(../image/bck.jpeg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.header p {
+  width: 67%;
+  font-size: 25px;
+}
+
+
+
+.container-tiga {
+  width: 100%;
+  display: flex;
+  background-color: gold;
+}
+.card {
+  border: 1px solid #aaa;
+  border-radius: 15px;
+  background-color: #eee;
+  overflow: hidden;
+  margin: 10px;
+  flex: 1;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+.card .header-satu {
+  height: 210px;
+}
+.card .header-dua {
+  height: 210px;
+}
+.card .header-tiga {
+  height: 210px;
+}
+.card .content {
+  text-align: center;
+  padding-bottom: 10px;
+}
+.kotak {
+  width: 100%;
+  margin-top: -18px;
+  padding: 1px;
+  background-color: gold;
+  text-align: center;
+  box-sizing: border-box;
+}
+.footer {
+  width: 100%;
+  padding: 1px;
+  text-align: center;
+}
+.container-empat {
+  width: 100%;
+  height: 180px;
+  background-color: orange;
+}
+
+
+
+
+@media( min-width: 600px ) {
+  .container-dua {
+    display: flex;
+    justify-content: space-between;
+  }
+}
